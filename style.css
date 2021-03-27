@@ -5,24 +5,24 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.article {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.article img {  
+.header__img {  
     width: 100%;
 }
 
-.article .more-inf {
+.header__more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .article { text-align: center;
+  .header { text-align: center;
   }
 
 }
@@ -33,7 +33,7 @@ body {
     margin: 0 auto 0;
 }
 
-.task {
+.incomplete-tasks__task {
     width: 56%;
     display: inline-block;
 }
@@ -104,7 +104,7 @@ label[for="new-task"] {
     margin: 0 0 20px;
 }
 
-input.new-task {
+.adding-element__input {
     width: 318px;
 }
 
