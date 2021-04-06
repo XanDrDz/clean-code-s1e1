@@ -17,9 +17,7 @@ body {
 }
 
 .header__more-inf {
-    font-family: cursive;
-    font-weight: 200;
-    color: rgb(114, 69, 150); 
+    font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
